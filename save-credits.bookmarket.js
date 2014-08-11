@@ -1,0 +1,1 @@
+javascript:(function(){var public_key="INSERT_PUBLIC_KEY_HERE",private_key="INSERT_PRIVATE_KEY_HERE";window.open("https://data.sparkfun.com/input/"+public_key+"?private_key="+private_key+"&credits="+$('.user_credit_row > .side_col > .credit_number').text());})();
