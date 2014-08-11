@@ -1,0 +1,1 @@
+parseInt($('.user_credit_row > .side_col > .credit_number').text());
