@@ -9,13 +9,13 @@
       // onload callback
       function drawChart() {
 
-        var public_key = 'INSERT_PUBLIC_KEY_HERE';
+        var public_key = 'XGGpqD2ORwtVnogWQlvX';
 
         // JSONP request
         var jsonData = $.ajax({
           url: 'https://data.sparkfun.com/output/' + public_key + '.json',
           data: {page: 1},
-          dataType: 'jsonp',
+          dataType: 'jsonp'
         }).done(function (results) {
 
           var data = new google.visualization.DataTable();
@@ -27,7 +27,7 @@
             if (row.credits !== "") {
               data.addRow([
                 (new Date(row.timestamp)),
-                parseInt(row.credits),
+                parseInt(row.credits)
               ]);
             }
           });
@@ -35,7 +35,9 @@
           var chart = new google.visualization.LineChart($('#chart').get(0));
 
           chart.draw(data, {
-            title: 'Credits vs. Time'
+            title: 'Credits vs. Time',
+            pointSize: 0,
+            height: 800
           });
 
         });
@@ -54,6 +56,6 @@
 
   </head>
   <body>
-    <div id="chart" style="width: 100%; height: 600px;"></div>
+    <div id="chart" style="width: 100%; height: 800px;"></div>
   </body>
 </html>
