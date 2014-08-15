@@ -6,6 +6,7 @@ A collection of small scripts for Quora.
 * `get-content-urls.js` - Gets all the URLs for content on the "Your Content" page.
 * `get-credits.js` - Gets your current number of credits on the "Credits" page.
 * `save-credits.js` - (and `save-credits.bookmarklet.js`) Save your current number of credits, along with a timestamp, to a data.sparkfun.com stream (configuration necessary).
+* `make-anonymous.bookmarklet.js` - Make yourself anonymous on the current question (avoid having to click through the drop down menu).
 
 ### Other Quora-related projects
 * [quora-api](https://github.com/csu/quora-api)
