@@ -1,0 +1,1 @@
+javascript:(function(){$('.delete_question').trigger("click");})();

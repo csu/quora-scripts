@@ -1,0 +1,1 @@
+javascript:(function(){$('.redirect_question').trigger("click");})();

@@ -1,0 +1,1 @@
+javascript:(function(){$("span:contains('Make Anonymous')").trigger("click"); $("a:contains('Remove Your Anonymity')").trigger("click");})();
