@@ -1,1 +1,1 @@
-javascript:(function(){$("span:contains('Make Anonymous')").trigger("click"); $("a:contains('Remove Your Anonymity')").trigger("click");})();
+javascript:(function(){$("span:contains('Make Anonymous')").trigger("click"); setTimeout(function(){ $("a:contains('Remove Your Anonymity')").trigger("click"); }, 2000);})();
