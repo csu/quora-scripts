@@ -1,0 +1,1 @@
+javascript:(function(){$("span:contains('Not for Reproduction')").trigger("click"); setTimeout(function(){ $("a:contains('Not For Reproduction')").trigger("click"); }, 2000);})();
