@@ -1,1 +1,1 @@
-javascript:(function(){$('.delete_question').trigger("click");})();
+javascript:(function(){$('.delete_question').trigger("click"); setTimeout(function(){ $("a:contains('Delete')").trigger("click"); }, 2000);})();
