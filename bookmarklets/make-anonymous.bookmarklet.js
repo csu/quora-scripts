@@ -1,1 +1,1 @@
-javascript:(function(){$('.question_public').trigger("click");})();
+javascript:(function(){$("span:contains('Make Anonymous')").trigger("click");})();
